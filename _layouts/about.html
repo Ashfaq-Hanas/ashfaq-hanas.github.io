@@ -1,0 +1,31 @@
+---
+layout: main
+---
+<article class="article-page">
+  <div class="page-content">
+    {% if page.img %}
+    <div class="page-cover-image">
+      <figure>
+        <img class="page-image" src="{{site.baseurl}}/assets/img/i-rest.jpg" alt="ashfaq-hanas">
+        {% if page.fig-caption %}
+          <figcaption>{{page.fig-caption}}</figcaption>
+        {% endif %}
+      </figure>
+    </div> <!-- End Page Cover Image -->
+    {% else %}
+    {% endif %}
+    <div class="wrap-content">
+      <header class="header-page">
+        <h1 class="page-title">About</h1>
+      </header>
+      <div> 
+        <p> I am a digital analyst, with practical experience in customer and web analytics.</p>
+      </div>
+      {{content | markdownify}}
+          {% endfor %}
+        </div>
+      </div>
+      {% include disqus.html %}
+    </div> <!-- End Wrap Content -->
+  </div> <!-- End Page Content -->
+</article> <!-- End Article Page -->
