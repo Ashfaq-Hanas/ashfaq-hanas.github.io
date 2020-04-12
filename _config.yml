@@ -2,7 +2,7 @@ title: Ashfaq Hanas - Data Science Portfolio
 description: > # this means to ignore newlines until "baseurl:"
   Data Science Portfolio
 permalink: ':title/'
-baseurl: "/ashfaq-hanas.github.io" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 site-twitter: #if your site has a twitter account, enter it here
 
