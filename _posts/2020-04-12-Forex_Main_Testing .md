@@ -362,11 +362,6 @@ plt.hist(data.price_change, bins=5, rwidth=50)
 plt.grid(True)
 ```
 
-    /usr/local/lib/python3.6/dist-packages/numpy/lib/histograms.py:839: RuntimeWarning: invalid value encountered in greater_equal
-      keep = (tmp_a >= first_edge)
-    /usr/local/lib/python3.6/dist-packages/numpy/lib/histograms.py:840: RuntimeWarning: invalid value encountered in less_equal
-      keep &= (tmp_a <= last_edge)
-
 
 
 ![png]({{site.baseurl}}/assets/img/output_5_1.png)
